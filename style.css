@@ -1,0 +1,39 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+.container {
+    width: 100%px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about-me-thumbnail {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+/* #about-me-card {
+    padding-top: 60px;
+} */
+
+.card-title {
+    border-bottom: 3px #cccccc solid;
+    line-height:150%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
